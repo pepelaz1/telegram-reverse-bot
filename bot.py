@@ -18,7 +18,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(reversed_text)
 
 def main():
-    TOKEN = "7993497213:AAFX-iDorDOF7tcJRWLi2z54PtM6jp-Ou9Q"  
+    TOKEN = "8555598494:AAHOzva7mHXOZFfN0Lf6azoIzOND_I75fn0"  
     application = Application.builder().token(TOKEN).build()
     
     application.add_handler(CommandHandler("start", start))
